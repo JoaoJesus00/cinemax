@@ -55,9 +55,9 @@ background-color: var(--azulescuro);
   animation: rolar 20s linear infinite;
 }
 
-.carrossel-track img {
-  width: 200px; 
-  height: 300px;
+.galeria img {
+  width: 300px; 
+  height: 500px;
   object-fit: cover; /* não distorce a imagem */
   border-radius: 8px;
 }
