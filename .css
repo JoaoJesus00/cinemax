@@ -22,7 +22,20 @@ background-color: black;
 }
 
 # {
-list-style-type:lower-alpha;
-font-family: "Arial", Arial, Helvetica, sans-serif;
-font-size: 50px, 1.875em;
+    list-style-type:lower-alpha;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 50px, 1.875em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+h1 {
+    list-style-type: lower-alpha;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 30px, 1.00em;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 250px;
+    margin-left: 800px; 
 }
