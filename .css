@@ -18,13 +18,15 @@ Ordem de Aplicação
 body{
 
 background-color: black;
+color: var(--milk); /* texto claro no fundo escuro */
+font-family: Arial, Helvetica, sans-serif;
 
 }
 
 # {
     list-style-type:lower-alpha;
     font-family: "Arial", Arial, Helvetica, sans-serif;
-    font-size: 50px, 1.875em;
+    font-size: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
@@ -33,7 +35,7 @@ background-color: black;
 h1 {
     list-style-type: lower-alpha;
     font-family: "Arial", Arial, Helvetica, sans-serif;
-    font-size: 30px, 1.00em;
+    font-size: 30px;
     margin-top: 200px;
     margin-bottom: 200px;
     margin-right: 250px;
@@ -69,4 +71,34 @@ background-color: var(--azulescuro);
   to {
     transform: translateX(-50%); /* volta ao inicio suavemente */
   }
+}
+
+/*Estilizar links */
+a {
+    color: var(--amarelo);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  background-color: var(--amarelo);
+  color: var(--azulescuro);
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
