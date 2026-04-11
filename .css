@@ -1,0 +1,41 @@
+/*-- PROJETO CINEMAX --*/ 
+
+:root {
+--azul: #0a5edde3;
+--azulescuro: #02163b;
+--amarelo: #d9ff03;
+--azulmarinho: #007474;
+--milk: #fdf8f2;
+--transition:  0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)/*Duração, começa rápido e depois fica lento */
+}
+
+/* 
+Ordem de Aplicação
+1. Inline style
+2. External and internal style sheets
+3. Browser default
+*/ 
+body{
+
+background-color: black;
+
+}
+
+# {
+    list-style-type:lower-alpha;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 50px, 1.875em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+h1 {
+    list-style-type: lower-alpha;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 30px, 1.00em;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 250px;
+    margin-left: 800px; 
+}
