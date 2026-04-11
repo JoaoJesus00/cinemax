@@ -39,3 +39,34 @@ h1 {
     margin-right: 250px;
     margin-left: 800px; 
 }
+div {
+height: 200px;
+width: 50%;
+background-color: var(--azulescuro);
+}
+.galeria_1 {
+  background-color: var(--azul);
+  padding: 40px 0;
+  overflow: hidden; /* esconde o que sai da tela */
+}
+.galeria {
+  display: flex;
+  gap: 20px;
+  animation: rolar 20s linear infinite;
+}
+
+.carrossel-track img {
+  width: 200px; 
+  height: 300px;
+  object-fit: cover; /* não distorce a imagem */
+  border-radius: 8px;
+}
+
+@keyframes rolar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* volta ao inicio suavemente */
+  }
+}
