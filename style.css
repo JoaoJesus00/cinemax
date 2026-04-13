@@ -1,0 +1,117 @@
+/*-- PROJETO CINEMAX --*/ 
+
+:root {
+--azul: #0a5edde3;
+--azulescuro: #02163b;
+--amarelo: #d9ff03;
+--azulmarinho: #007474;
+--milk: #fdf8f2;
+--transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Duração, começa rápido e depois fica lento */
+}
+
+/* 
+Ordem de Aplicação
+1. Inline style
+2. External and internal style sheets
+3. Browser default
+*/ 
+body {
+  background-color: black;
+  color: var(--milk);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  text-align: center;
+  color: var(--milk);
+  padding: 10px 0;
+  margin: 0;
+}
+.subtitulo {
+  text-align: center;
+  color: var(--amarelo);
+  text-shadow: 1px 2px var(--milk);
+  text-decoration: overline underline;
+  background-color: var(--azulescuro);
+  padding: 15px 0;
+  margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 250px;
+    margin-left: 800px; 
+}
+
+div {
+
+  background-color: var(--azulescuro);
+}
+
+.galeria_1 {
+  background-color: var(--azulescuro);
+  padding: 20px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.galeria {
+  display: flex;
+  gap: 20px;
+  animation: rolar 20s linear infinite;
+  width: max-content;
+}
+
+.galeria img {
+  width: 300px; 
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0; /* impede as imagens de encolherem */
+}
+
+@keyframes rolar {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+a {
+  color: var(--amarelo);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  background-color: var(--amarelo);
+  color: var(--azulescuro);
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
