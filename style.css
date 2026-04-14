@@ -21,38 +21,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo {
-  text-align: center;
-  color: var(--milk);
-  padding: 10px 0;
-  margin: 0;
-}
-.subtitulo {
-  text-align: center;
-  color: var(--amarelo);
-  text-shadow: 1px 2px var(--milk);
-  text-decoration: overline underline;
-  background-color: var(--azulescuro);
-  padding: 15px 0;
-  margin: 0;
-}
+
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    font-size: 20px;
+    margin: 0;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-right: 250px;
-    margin-left: 800px; 
+    margin: 0px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 80px; 
 }
 
 div {
@@ -114,4 +103,66 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+.subtitulo {
+  text-align: center;
+  color: var(--milk);
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.titulo {
+  text-align: center;
+  font-size: 64px;
+  color: var(--amarelo);
+  text-shadow: 1px 2px var(--milk);
+  text-decoration: ove  rline underline;
+  background-color: var(--azulescuro);
+  padding: 15px 0;
+  margin: 0;
+}
+
+
+
+.sinopse{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.sinopse h1 {
+  text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: var(--milk);
+  letter-spacing: 1.5px;
+  padding: 0px;
+  margin: 0 0 16px 0;
+}
+
+
+.sinopse img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.sinopse div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+
+.sinopse p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--milk);
+  margin: 0;
 }
