@@ -85,7 +85,7 @@ a {
 a:hover {
   opacity: 0.7;
 }
-
+/*
 .btn {
   background-color: var(--amarelo);
   color: var(--azulescuro);
@@ -98,7 +98,7 @@ a:hover {
 
 .btn:hover {
   opacity: 0.8;
-}
+}*/
 
 img {
   max-width: 100%;
@@ -185,4 +185,24 @@ button {
   /*align-items: center;*/
   display: block;
   margin: 14px auto 0;
+}
+
+footer {
+  background-color: var(--azulescuro);
+  color: var(--milk);
+  text-align: center;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-top: 5px solid var(--amarelo);}
+
+footer p {
+  font-size: 14px;
+  color: var(--milk);
+  opacity: 0.7;
+  margin: 0;
+}
+
+footer iframe {
+  border-radius: 8px;
+  margin: 16px 0;
 }
